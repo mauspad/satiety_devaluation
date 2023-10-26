@@ -265,7 +265,7 @@
     <LoopInitiator loopType="TrialHandler" name="VAS_loop">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[{'Question': 'How full do you feel right now?', 'LabelL': 'Not at all full', 'LabelR': 'Extremely full', 'Quality': 'fullness'}, {'Question': 'How hungry do you feel right now?', 'LabelL': 'Not at all hungry', 'LabelR': 'Extremely hungry', 'Quality': 'hunger'}, {'Question': 'How much do you want to eat the salty snack right now?', 'LabelL': 'Not at all', 'LabelR': 'Extremely', 'Quality': 'salty_wanting'}, {'Question': 'You can now taste the salty snack you chose.\nHow much do you like it?', 'LabelL': 'Not at all', 'LabelR': 'Extremely', 'Quality': 'salty_liking'}, {'Question': 'How much do you want to eat the sweet snack right now?', 'LabelL': 'Not at all', 'LabelR': 'Extremely', 'Quality': 'sweet_wanting'}, {'Question': 'You can now taste the sweet snack you chose.\nHow much do you like it?', 'LabelL': 'Not at all', 'LabelR': 'Extremely', 'Quality': 'sweet_liking'}]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="C:/Users/Silver/Box/psychopy_git_masters/satiety_deval/conditions/vas_ratings.xlsx" valType="file"/>
+      <Param name="conditionsFile" updates="None" val="conditions/vas_ratings.xlsx" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="sequential" valType="str"/>

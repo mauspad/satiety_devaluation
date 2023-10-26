@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2023.2.3),
-    on October 26, 2023, at 09:26
+    on October 26, 2023, at 17:20
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -363,7 +363,7 @@ def run(expInfo, thisExp, win, inputs, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     VAS_loop = data.TrialHandler(nReps=1.0, method='sequential', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('C:/Users/Silver/Box/psychopy_git_masters/satiety_deval/conditions/vas_ratings.xlsx'),
+        trialList=data.importConditions('conditions/vas_ratings.xlsx'),
         seed=None, name='VAS_loop')
     thisExp.addLoop(VAS_loop)  # add the loop to the experiment
     thisVAS_loop = VAS_loop.trialList[0]  # so we can initialise stimuli with some values
